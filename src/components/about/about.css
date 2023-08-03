@@ -4,6 +4,10 @@
     column-gap: 4rem;
 }
 
+.about__description{
+    margin-bottom: 20px;
+}
+
 .about__img {
     width: 350px;
     border-radius: 1.5rem;
@@ -23,6 +27,7 @@
     text-align: center;
     padding: 1rem 1.25rem;
 }
+
 
 .about__icon {
     font-size: 1.5rem;
@@ -73,7 +78,7 @@
     }
 
     .about__description {
-        padding: 0;
+        padding: 0 0.5rem;
     }
 }
 @media screen and (max-width: 350px) {

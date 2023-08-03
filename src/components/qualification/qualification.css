@@ -26,7 +26,10 @@
 }
 
 .qualification__active {
-    color: var(--title-color-dark);
+    color: var(--text-color)
+}
+.qualification__active:hover{
+    color: var(--text-color)
 }
 
 .qualification__sections {

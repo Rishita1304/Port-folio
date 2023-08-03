@@ -36,14 +36,14 @@
 }
 
 .home__subtitle {
-    position: relative;
+    /* position: relative; */
     font-size: var(--h3-font-size);
     padding-right: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
 
-.home__subtitle::before {
+/* .home__subtitle::before {
     content: '';
     position: absolute;
     width: 80%;
@@ -51,7 +51,7 @@
     background-color: var(--text-color);
     left: 0;
     top: -5px;
-}
+} */
 
 .home__img {
     background: url(../../assests/img1010.jpg);
@@ -122,7 +122,6 @@
     }
 
     .home__subtitle {
-        padding-left: 2rem;
         margin-bottom: var(--mb-1);
         font-size: .89rem;
     }
@@ -181,4 +180,7 @@
         height: 22px;
     }
     
+}
+.home__description{
+    margin-bottom: 20px;
 }

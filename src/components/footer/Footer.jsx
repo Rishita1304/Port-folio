@@ -30,7 +30,7 @@ const Footer = () => {
                 </a>
             </div>
 
-            <span className='footer__copy'>&#169; Crypticalcoder. All rights reserved</span>
+            <span className='footer__copy'>&#169; Rishita Srivastava. All rights reserved</span>
         </div>
     </footer>
   )

@@ -14,13 +14,12 @@ function App() {
   return (
     <>
     <Header />
-
     <main className='main'>
       <Home />
       <About />
       <Skills />
       <Services />
-      {/* <Qualification /> */}
+      <Qualification />
       <Project />
       <Contact />
     </main>
