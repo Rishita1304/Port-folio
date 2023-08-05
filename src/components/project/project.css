@@ -4,14 +4,16 @@
     gap: 2.5rem;
 }
 .project__item{
-    background: rgb(239, 211, 211);
+    background: var(--body1-color);
+    /* background: rgb(239, 211, 211); */
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
 }
 .project__item:hover{
     /* border: 2px solid rgb(239, 211, 211); */
-    background: rgb(241, 225, 225);
+    background: var(--body2-color);
+    cursor: pointer;
 }
 
 .project__item-image{
@@ -25,7 +27,7 @@
 .project-cta{
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 

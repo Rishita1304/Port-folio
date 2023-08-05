@@ -10,6 +10,8 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 40%);
   --body-color: hsl(var(--hue), var(--sat), 94%);
+  --body1-color: hsl(var(--hue), var(--sat), 78%);
+  --body2-color: hsl(var(--hue), var(--sat), 85%);
   --container-color: #fff;
 
   /* --hue: 0;
@@ -150,7 +152,8 @@ img {
 
 
 .button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: var(--title-color);
   color: var(--container-color);
   border: 1.5px solid var(--title-color);
@@ -164,11 +167,18 @@ img {
   /* margin-right: 10px; */
   display: inline;
   color: var(--title-color);
-  border: 2px solid var(--title-color);
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-top: 10px;
+  /* border: 2px solid var(--title-color); */
+  /* padding: 1rem; */
+  font-size: 30px;
+  /* border-radius: 1rem; */
+  /* margin-top: 10px; */
   font-weight: var(--font-medium);
+}
+.buttonn{
+  font-weight: var(--font-medium);
+  font-size: 30px;
+  display: inline;
+  color: var(--title-color);
 }
 
 .link{
@@ -183,7 +193,7 @@ img {
 }
 
 .buttons:hover {
-  background-color: var(--container-color);
+  /* background-color: var(--container-color); */
 }
 
 .button__icon {

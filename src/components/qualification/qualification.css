@@ -1,5 +1,5 @@
 .qualification__container {
-    max-width: 786px;
+    max-width: 1000px;
 }
 
 .qualification__tabs {
@@ -26,7 +26,7 @@
 }
 
 .qualification__active {
-    color: var(--text-color)
+    color: var(--title-color-dark)
 }
 .qualification__active:hover{
     color: var(--text-color)

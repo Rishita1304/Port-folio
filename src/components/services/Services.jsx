@@ -26,33 +26,38 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
 
                         <h3 className='services__modal-title'> Developer</h3>
-                        <p className='services__modal-description'>Service with 2 months of experience. Providing quality work to clients and companies.</p>
+                        {/* <p className='services__modal-description'>Service with 2 months of experience. Providing quality work to clients and companies.</p> */}
 
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                    Develop the Backend server with NodeJS.
+                                A MERN Developer.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                   Web page Development.
+                                Using React.js, I can built user-friendly and responsive web interfaces.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                     API's.
+                                I can develope robust and scalable server-side APIs.
                                 </p>
                             </li>
-                            {/* <li className='services__modal-service'>
+                            <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                    I position your company brand.
+                                I can ensure the security of the backend by implementing authentication and authorization mechanisms, such as JSON Web Tokens or OAuth.
                                 </p>
-                            </li> */}
+                            </li>
+                            <li className='services__modal-service'>
+                                <i className='uil uil-check-circle services__modal-icon'></i>
+                                <p className='services__modal-info'>
+                               I can work on many databases like MongoDb and firebase.                                </p>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -68,34 +73,26 @@ const Services = () => {
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
 
-                        <h3 className='services__modal-title'>Designer</h3>
+                        <h3 className='services__modal-title'>Contributor</h3>
                         <p className='services__modal-description'>Service with 2 months of experience. Providing quality work to clients and companies.</p>
 
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                    <a>
-                                        Designed website pages.
-                                        </a>
+                                I am a active Open Source Contributor.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                   Posters for events.
+                                A active participant of GirlScript Summer of Code.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                    ID cards.
-                                </p>
-                            </li>
-                            <li className='services__modal-service'>
-                                <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>
-                                    T-shirts.
+                                I have been working as a team, with 3+ PRs merged.
                                 </p>
                             </li>
                         </ul>
@@ -114,33 +111,32 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
 
                         <h3 className='services__modal-title'>Programmer</h3>
-                        <p className='services__modal-description'>Service with 2 months of experience. Providing quality work to clients and companies.</p>
+                        <p className='services__modal-description'>.</p>
 
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                    C++, C, Python.
+                                I am a C++ programmer.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                   1 Star Coder at Codechef.
+                                I can work for code optimization.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                    2 Star Coder at Hackerrank.
-                                </p>
+                                Currently learning about concepts of Data Structures and Algorithm.                                </p>
                             </li>
-                            {/* <li className='services__modal-service'>
+                            <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                    I position your company brand.
+                                I can apply my programming skills as to write a concised code.
                                 </p>
-                            </li> */}
+                            </li>
                         </ul>
                     </div>
                 </div>

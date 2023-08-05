@@ -66,6 +66,7 @@
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    overflow-y: scroll;
 }
 
 .services__modal-content {
