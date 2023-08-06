@@ -1,7 +1,7 @@
 import React from 'react'
 import './project.css'
 import tr from '../../assests/Apna Safar.png'
-import wt from '../../assests/wtr.jpg'
+import wt from '../../assests/UpDriven.png'
 import nf from '../../assests/ntf.jpg'
 import sm from '../../assests/sm.jpg'
 import ecom from '../../assests/ecom.jpg'
@@ -25,17 +25,18 @@ const Project = () => {
                 <a href='https://travel-site-lg5u.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
-            {/* <article className=' project__item'>
+            <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={wt} alt='' />
                 </div>
-                <h3>Weather App</h3>
+                <h3>UpDriven</h3>
+                <span>An online platform that enables drivers and passengers to find each other and share rides.</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Weather-App' className='buttons' target='_blank'><BsGithub/></a>
-                <a href='https://weatherapp-tcy7.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
+                <a href='https://github.com/Rishita1304/UpDriven.git' className='buttons' target='_blank'><BsGithub/></a>
+                <a href='https://updriven.onrender.com/' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
-            <article className=' project__item'>
+            {/* <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={nf} alt='' />
                 </div>

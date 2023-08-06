@@ -10,7 +10,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 40%);
   --body-color: hsl(var(--hue), var(--sat), 94%);
-  --body1-color: hsl(var(--hue), var(--sat), 78%);
+  --body1-color: hsl(var(--hue), var(--sat), 83%);
   --body2-color: hsl(var(--hue), var(--sat), 85%);
   --container-color: #fff;
 
@@ -186,14 +186,14 @@ img {
 }
 
 .button:hover {
-  background-color: transparent;
-  color: var(--title-color-dark);
+  /* background-color: transparent; */
+  /* color: var(--body-color); */
   border: 1.5px solid var(--title-color-dark);
   transition: all 0.3s ease;
 }
 
-.buttons:hover {
-  /* background-color: var(--container-color); */
+.buttonn:hover {
+ /* color: var(--body-color); */
 }
 
 .button__icon {
