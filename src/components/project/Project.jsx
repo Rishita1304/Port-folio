@@ -2,9 +2,10 @@ import React from 'react'
 import './project.css'
 import tr from '../../assests/Apna Safar.png'
 import wt from '../../assests/UpDriven.png'
-import nf from '../../assests/ntf.jpg'
-import sm from '../../assests/sm.jpg'
-import ecom from '../../assests/ecom.jpg'
+import nf from '../../assests/Resume Builder.png'
+import sm from '../../assests/Connectr.png'
+import ecom from '../../assests/E-shoppers.png'
+import whe from '../../assests/whether app.png'
 import {BsGithub} from 'react-icons/bs'
 import {FiLink} from 'react-icons/fi'
 
@@ -21,7 +22,7 @@ const Project = () => {
                 <h3>Apna Safar</h3>
                 <span>A hotel booking website that allows users to search and book hotels and resorts.</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Travel-Site' className='buttons' target='_blank'><BsGithub/></a>
+                <a href='https://github.com/Rishita1304/Travel-Site' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://travel-site-lg5u.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
@@ -32,40 +33,54 @@ const Project = () => {
                 <h3>UpDriven</h3>
                 <span>An online platform that enables drivers and passengers to find each other and share rides.</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/UpDriven.git' className='buttons' target='_blank'><BsGithub/></a>
+                <a href='https://github.com/Rishita1304/UpDriven.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://updriven.onrender.com/' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
-            {/* <article className=' project__item'>
+            <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={nf} alt='' />
                 </div>
-                <h3>Netflix Clone</h3>
+                <h3>Resume Builder</h3>
+                <span>To assist job seekers in creating professional and well-structured resumes.</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Netflix-Clone' className='buttons' target='_blank'><BsGithub/></a>
-                <a href='https://netflixc.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
+                <a href='https://github.com/Rishita1304/Resume-Builder.git' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://resume-builder-bx6y.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
             <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={sm} alt='' />
                 </div>
-                <h3>Social Media Site</h3>
+                <h3>Connectr</h3>
+                <span>An online platform that enables users to create profiles, connect with other users, and share photos</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Social-Media-Site' className='buttons' target='_blank'><BsGithub/></a>
-                <a href='https://socialmedia-f4c6.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
+                <a href='https://github.com/Rishita1304/Connectr.git' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://connectr.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
             <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={ecom} alt='' />
                 </div>
-                <h3>E-commerce Site</h3>
+                <h3>E-Shoppers</h3>
+                <span>A website where customers can browse through products, add items to cart, and complete transactions securely.</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Ecommerce-Site' className='buttons' target='_blank'><BsGithub/></a>
+                <a href='https://github.com/Rishita1304/E-Shoppers.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://ecom-fdtv.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
-            </article> */}
+            </article>
+            <article className=' project__item'>
+                <div className='project__item-image'>
+                    <img src={whe} alt='' />
+                </div>
+                <h3>Whether Report</h3>
+                <span>A website that provides real-time weather forecasts and related information for users.</span>
+                <div className='project-cta'>
+                <a href='https://github.com/Rishita1304/Weather-App.git' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://weatherapp-tcy7.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
+                </div>
+            </article>
             {/* <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={img1} alt='' />

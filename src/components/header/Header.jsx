@@ -20,11 +20,11 @@ const Header = () => {
 
         <div className={Toggle ? "nav__menu show__menu" : "nav__menu"}>
           <ul className='nav__list grid'>
-            <li className='nav__item'>
+            {/* <li className='nav__item'>
               <a href='#home' onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? 'nav__link active-link' : 'nav__link'}>
                 <i className='uil uil-estate nav__icon'></i> Home
               </a>
-            </li>
+            </li> */}
             <li className='nav__item'>
             <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'nav__link active-link' : 'nav__link'}>
                 <i className='uil uil-user nav__icon'></i> About
@@ -41,7 +41,12 @@ const Header = () => {
               </a>
             </li>
             <li className='nav__item'>
-              <a href='#projects' className='nav__link'>
+              <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#home' ? 'nav__link active-link' : 'nav__link'}>
+                <i className='uil uil-estate nav__icon'></i> Experience
+              </a>
+            </li>
+            <li className='nav__item'>
+              <a href='#projects' onClick={() => setActiveNav('#projects')} className={activeNav === '#home' ? 'nav__link active-link' : 'nav__link'}>
                 <i className='uil uil-user nav__icon'></i> Projects
               </a>
             </li>
