@@ -53,7 +53,7 @@ const Project = () => {
                     <img src={sm} alt='' />
                 </div>
                 <h3>Connectr</h3>
-                <span>An online platform that enables users to create profiles, connect with other users, and share photos</span>
+                <span>An online platform that enables users to create profiles, connect with other users by following them, and share photos.</span>
                 <div className='project-cta'>
                 <a href='https://github.com/Rishita1304/Connectr.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://connectr.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
@@ -75,7 +75,7 @@ const Project = () => {
                     <img src={whe} alt='' />
                 </div>
                 <h3>Whether Report</h3>
-                <span>A website that provides real-time weather forecasts and related information for users.</span>
+                <span>A website that provides real-time weather forecasts and related information for users such as relative humidity and precipitation.</span>
                 <div className='project-cta'>
                 <a href='https://github.com/Rishita1304/Weather-App.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://weatherapp-tcy7.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
