@@ -145,7 +145,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">GSSOC'23</h3>
                 <span className="qualification__subtitle">Contributer</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> June 2023 - August
+                  <i className="uil uil-calendar-alt"></i> June 2023 - Aug
                   2023
                 </div>
               </div>
@@ -155,7 +155,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-            {/* <div className='qualification__data'>
+            <div className='qualification__data'>
                         <div></div>
 
                         <div>
@@ -163,17 +163,17 @@ const Qualification = () => {
                             <span className='qualification__line'></span>
                         </div>
                         <div>
-                            <h3 className='qualification__title'>UX/UI</h3>
+                            <h3 className='qualification__title'>JANATIG</h3>
                             <span className='qualification__subtitle'>
-                                Spain - Institute
+                                Full Stack Developer Intern
                             </span>
                             <div className='qualification__calender'>
-                                <i className='uil uil-calendar-alt'></i> 2018-2019
+                                <i className='uil uil-calendar-alt'></i> Sept 2023 - Nov 2023
                             </div>
                         </div>
                         
                       
-                    </div> */}
+                    </div>
           </div>
         </div>
       </div>

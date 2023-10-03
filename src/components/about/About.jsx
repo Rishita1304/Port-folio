@@ -3,6 +3,7 @@ import "./about.css";
 import about from "../../assests/about.svg";
 import resume from "../../assests/CV.pdf";
 import Info from "./Info";
+import { FiLink } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -23,10 +24,13 @@ const About = () => {
             about developing new user-friendly applications with beautiful
             interfaces.I'm also keen in learning new technologies and stacks.{" "}
           </p>
+          <div className="newdiv">
 
           <a download href={resume} className="button button--flex">
             Download CV <i className="uil uil-file-alt"></i>
           </a>
+          <a href="https://rishita1304.github.io/Resume/" className="buttonn newbt"><FiLink/></a>
+          </div>
         </div>
       </div>
     </section>
