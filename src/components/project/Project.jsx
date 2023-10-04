@@ -6,6 +6,7 @@ import nf from '../../assests/Resume Builder.png'
 import sm from '../../assests/Connectr.png'
 import ecom from '../../assests/E-shoppers.png'
 import whe from '../../assests/whether app.png'
+import real from '../../assests/estratery.png'
 import {BsGithub} from 'react-icons/bs'
 import {FiLink} from 'react-icons/fi'
 
@@ -50,6 +51,17 @@ const Project = () => {
             </article>
             <article className=' project__item'>
                 <div className='project__item-image'>
+                    <img src={real} alt='' />
+                </div>
+                <h3>Estratery</h3>
+                <span>A real estate website that offers users a seamless experience to refine property searches based on their preferences, such as location or prices.</span>
+                <div className='project-cta'>
+                <a href='https://github.com/Rishita1304/Weather-App.git' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://weatherapp-tcy7.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
+                </div>
+            </article>
+            <article className=' project__item'>
+                <div className='project__item-image'>
                     <img src={sm} alt='' />
                 </div>
                 <h3>Connectr</h3>
@@ -70,17 +82,7 @@ const Project = () => {
                 <a href='https://ecom-fdtv.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
-            <article className=' project__item'>
-                <div className='project__item-image'>
-                    <img src={whe} alt='' />
-                </div>
-                <h3>Whether Report</h3>
-                <span>A website that provides real-time weather forecasts and related information for users such as relative humidity and precipitation.</span>
-                <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Weather-App.git' className='buttonn' target='_blank'><BsGithub/></a>
-                <a href='https://weatherapp-tcy7.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
-                </div>
-            </article>
+  
             {/* <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={img1} alt='' />
