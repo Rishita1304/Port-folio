@@ -17,28 +17,28 @@ const Services = () => {
         <div className='services__content'>
                 <div>
                     <i className='uil uil-arrow services__icon'></i>
-                    <h3 className='services__title'>Developer</h3>
+                    <h3 className='services__title'>Web Developer</h3>
                 </div>
-                <span className='services__button' onClick={() => toggleTab(3)}>View More <i className='uil uil-arrow-right services__button-icon'></i></span>
+                <span className='services__button' onClick={() => toggleTab(4)}>View More <i className='uil uil-arrow-right services__button-icon'></i></span>
 
-                <div className={toggleState === 3 ? 'services__modal active-modal' : 'services__modal'}>
+                <div className={toggleState === 4 ? 'services__modal active-modal' : 'services__modal'}>
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
 
-                        <h3 className='services__modal-title'> Developer</h3>
+                        <h3 className='services__modal-title'>MERN Developer</h3>
                         {/* <p className='services__modal-description'>Service with 2 months of experience. Providing quality work to clients and companies.</p> */}
 
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                A MERN Developer.
+                                Full Stack with MERN stack and Next.js.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                Using React.js, I can built user-friendly and responsive web interfaces.
+                                I can built user-friendly and responsive web interfaces.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
@@ -62,6 +62,56 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+        <div className='services__content'>
+                <div>
+                    <i className='uil uil-arrow services__icon'></i>
+                    <h3 className='services__title'>App Developer</h3>
+                </div>
+                <span className='services__button' onClick={() => toggleTab(3)}>View More <i className='uil uil-arrow-right services__button-icon'></i></span>
+
+                <div className={toggleState === 3 ? 'services__modal active-modal' : 'services__modal'}>
+                    <div className='services__modal-content'>
+                        <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
+
+                        <h3 className='services__modal-title'>React Native Developer</h3>
+                        {/* <p className='services__modal-description'>Service with 2 months of experience. Providing quality work to clients and companies.</p> */}
+
+                        <ul className='services__modal-services grid'>
+                            {/* <li className='services__modal-service'>
+                                <i className='uil uil-check-circle services__modal-icon'></i>
+                                <p className='services__modal-info'>
+                                I am Familiar with navigation libraries such as React Navigation to create smooth navigation experiences within the app.
+                                </p>
+                            </li> */}
+
+                            <li className='services__modal-service'>
+                                <i className='uil uil-check-circle services__modal-icon'></i>
+                                <p className='services__modal-info'>
+                                I can develope the user interface, implement functionality, and ensure a consistent user experience.
+                                </p>
+                            </li>
+                            <li className='services__modal-service'>
+                                <i className='uil uil-check-circle services__modal-icon'></i>
+                                <p className='services__modal-info'>
+                                I have integrated RESTful APIs and web services to fetch and update data in the mobile application.
+                                </p>
+                            </li>
+                            <li className='services__modal-service'>
+                                <i className='uil uil-check-circle services__modal-icon'></i>
+                                <p className='services__modal-info'>
+                                I have implemented state management solutions using Redux to manage and ensure that data updates are consistent throughout the app.
+                                </p>
+                            </li>
+                            <li className='services__modal-service'>
+                                <i className='uil uil-check-circle services__modal-icon'></i>
+                                <p className='services__modal-info'>
+                                I can prepare and release the app to the Apple App Store and Google Play Store.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div className='services__content'>
                 <div>
                     <i className='uil uil-edit services__icon'></i>
@@ -74,25 +124,25 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
 
                         <h3 className='services__modal-title'>Contributor</h3>
-                        <p className='services__modal-description'>Service with 2 months of experience. Providing quality work to clients and companies.</p>
+                        <p className='services__modal-description'>Service that provides quality work to clients and companies.</p>
 
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                I am a active Open Source Contributor.
+                                I have worked on bug fixes, new features, enhancements, or optimizations.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                A active participant of GirlScript Summer of Code.
+                                I maintained code quality by reviewing code changes from other contributors.
                                 </p>
                             </li>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
                                 <p className='services__modal-info'>
-                                I have been working as a team, with 3+ PRs merged.
+                                I have wrote, reviewed, and submitted code changes to different projects.
                                 </p>
                             </li>
                         </ul>

@@ -18,11 +18,11 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Welcome to my corner of the web! I'm a passionate MERN Developer,
+            Welcome to my corner of the web! I'm a passionate Full Stack Developer,
             currently at Big Data Center Of Excellence. I have developed many
             backend servers as well as frontend applications. I'm passionate
             about developing new user-friendly applications with beautiful
-            interfaces.I'm also keen in learning new technologies and stacks.{" "}
+            interfaces. I'm also keen in learning new technologies and stacks.{" "}
           </p>
           <div className="newdiv">
 
