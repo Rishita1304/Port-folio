@@ -64,7 +64,7 @@ const Services = () => {
             </div>
         <div className='services__content'>
                 <div>
-                    <i className='uil uil-arrow services__icon'></i>
+                    <i className='uil uil-android services__icon'></i>
                     <h3 className='services__title'>App Dev</h3>
                 </div>
                 <span className='services__button' onClick={() => toggleTab(3)}>View More <i className='uil uil-arrow-right services__button-icon'></i></span>
