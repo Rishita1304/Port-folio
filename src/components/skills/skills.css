@@ -73,9 +73,6 @@
 @media screen and (max-width: 992px) {
     .skills__box{
         display: block;
-        text-align: start;
-    }
-    .sk_ti{
         text-align: center;
     }
     .skills__titles{

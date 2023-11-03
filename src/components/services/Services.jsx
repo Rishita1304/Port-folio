@@ -17,7 +17,7 @@ const Services = () => {
         <div className='services__content'>
                 <div>
                     <i className='uil uil-arrow services__icon'></i>
-                    <h3 className='services__title'>Web Developer</h3>
+                    <h3 className='services__title'>Web Dev</h3>
                 </div>
                 <span className='services__button' onClick={() => toggleTab(4)}>View More <i className='uil uil-arrow-right services__button-icon'></i></span>
 
@@ -65,7 +65,7 @@ const Services = () => {
         <div className='services__content'>
                 <div>
                     <i className='uil uil-arrow services__icon'></i>
-                    <h3 className='services__title'>App Developer</h3>
+                    <h3 className='services__title'>App Dev</h3>
                 </div>
                 <span className='services__button' onClick={() => toggleTab(3)}>View More <i className='uil uil-arrow-right services__button-icon'></i></span>
 
