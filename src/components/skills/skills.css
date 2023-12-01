@@ -15,7 +15,7 @@
 }
 .skill__logos{
     margin: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .skills__title {
@@ -81,31 +81,17 @@
     
   }
   @media screen and (max-width: 576px) {
-    .skills__container {
-        /* padding-left: 2rem; */
-
-    }
 
 
     
   }
 
   @media screen and (max-width: 400px) {
-    .skills__container {
-        /* padding-left: 1.8rem; */
-
-    }
 }
 
   @media screen and (max-width: 380px) {
-    /* .skills__box {
-        column-gap: 1.25rem;
-    } */
     .skills__name {
         font-size: var(--small-font-size);
-    }
-    .skills__container{
-        /* padding-left: 1rem; */
     }
 
   }

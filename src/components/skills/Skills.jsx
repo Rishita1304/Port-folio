@@ -151,7 +151,7 @@ const Skills = () => {
               src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
               alt="nextjs"
               width="50"
-              className="skill__logos"
+              className="skill__logo"
               height="40"
             />{" "}
           </a>{" "}
