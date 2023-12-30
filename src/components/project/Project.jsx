@@ -24,7 +24,7 @@ const Project = () => {
                 <span>A hotel booking website that allows users to search and book hotels and resorts.</span>
                 <div className='project-cta'>
                 <a href='https://github.com/Rishita1304/Travel-Site' className='buttonn' target='_blank'><BsGithub/></a>
-                <a href='https://travel-site-lg5u.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
+                <a href='https://apna-safar.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
             <article className=' project__item'>
