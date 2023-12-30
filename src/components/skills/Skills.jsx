@@ -16,7 +16,7 @@ const Skills = () => {
           <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
               alt="html5"
               width="50"
               className="skill__logo"
@@ -30,7 +30,7 @@ const Skills = () => {
           >
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
               alt="css3"
               width="50"
               className="skill__logo"
@@ -44,7 +44,7 @@ const Skills = () => {
           >
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               alt="javascript"
               width="50"
               className="skill__logo"
@@ -58,7 +58,7 @@ const Skills = () => {
           >
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
               alt="typescript"
               width="50"
               className="skill__logo"
@@ -72,7 +72,7 @@ const Skills = () => {
           >
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
               alt="cplusplus"
               width="50"
               className="skill__logo"
@@ -82,7 +82,7 @@ const Skills = () => {
           <a href="https://www.python.org" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
               alt="python"
               width="50"
               className="skill__logo"
@@ -98,7 +98,7 @@ const Skills = () => {
           <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
               alt="react"
               width="50"
               className="skill__logo"
@@ -108,7 +108,7 @@ const Skills = () => {
           <a href="https://nodejs.org" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
               alt="nodejs"
               width="50"
               className="skill__logo"
@@ -118,7 +118,7 @@ const Skills = () => {
           <a href="https://redux.js.org" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
               alt="redux"
               width="50"
               className="skill__logo"
@@ -128,7 +128,7 @@ const Skills = () => {
           <a href="https://expressjs.com" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
               alt="express"
               width="50"
               className="skill__logo"
@@ -148,7 +148,7 @@ const Skills = () => {
           <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
               alt="nextjs"
               width="50"
               className="skill__logo"
@@ -163,7 +163,7 @@ const Skills = () => {
           <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
               alt="postgresql"
               width="50"
               className="skill__logo"
@@ -173,7 +173,7 @@ const Skills = () => {
           <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
               alt="mongodb"
               width="50"
               className="skill__logo"
@@ -187,7 +187,7 @@ const Skills = () => {
           >
             {" "}
             <img
-              src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
               alt="firebase"
               width="50"
               className="skill__logo"
