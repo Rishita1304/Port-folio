@@ -40,21 +40,10 @@ const Project = () => {
             </article>
             <article className=' project__item'>
                 <div className='project__item-image'>
-                    <img src={nf} alt='' />
-                </div>
-                <h3>Resume Builder</h3>
-                <span>To assist job seekers in creating professional and well-structured resumes.</span>
-                <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Resume-Builder.git' className='buttonn' target='_blank'><BsGithub/></a>
-                <a href='https://resume-builder-bx6y.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
-                </div>
-            </article>
-            <article className=' project__item'>
-                <div className='project__item-image'>
                     <img src={real} alt='' />
                 </div>
                 <h3>Estratery</h3>
-                <span>A real estate website that offers users a seamless experience to refine property searches based on their preferences, such as location or prices.</span>
+                <span>A real estate website providing seamless property search based on location or price.</span>
                 <div className='project-cta'>
                 <a href='https://github.com/Rishita1304/Weather-App.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://weatherapp-tcy7.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
@@ -82,7 +71,17 @@ const Project = () => {
                 <a href='https://ecom-fdtv.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
-  
+            <article className=' project__item'>
+                <div className='project__item-image'>
+                    <img src={nf} alt='' />
+                </div>
+                <h3>Resume Builder</h3>
+                <span>To offer guidance for job seekers in crafting professional and structured resumes, ensuring their qualifications shine.</span>
+                <div className='project-cta'>
+                <a href='https://github.com/Rishita1304/Resume-Builder.git' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://resume-builder-bx6y.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
+                </div>
+            </article>
             {/* <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={img1} alt='' />

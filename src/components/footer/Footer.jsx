@@ -22,11 +22,11 @@ const Footer = () => {
         </ul>
         <div className="footer__social">
           <a
-            href="https://twitter.com/RishitaSrivas13/"
+            href="https://leetcode.com/rishita1304"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="uil uil-twitter"></i>
+            <i className="uil uil-brackets-curly"></i>
           </a>
           <a href='https://www.linkedin.com/in/rishita1304/' className='footer__social-link' target='_blank'>
         <i className='uil uil-linkedin'></i>
