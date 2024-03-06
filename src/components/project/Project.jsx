@@ -45,8 +45,8 @@ const Project = () => {
                 <h3>Estratery</h3>
                 <span>A real estate website providing seamless property search based on location or price.</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Weather-App.git' className='buttonn' target='_blank'><BsGithub/></a>
-                <a href='https://weatherapp-tcy7.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
+                <a href='https://github.com/Rishita1304/Real-estate' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://real-estate-xq2e.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
             <article className=' project__item'>

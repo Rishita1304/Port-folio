@@ -44,7 +44,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Full Stack with MERN stack and Next.js.
+                    Full Stack with MERN and Next.js.
                   </p>
                 </li>
                 <li className="services__modal-service">
