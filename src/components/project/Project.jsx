@@ -2,10 +2,9 @@ import React from 'react'
 import './project.css'
 import tr from '../../assests/Apna Safar.png'
 import wt from '../../assests/UpDriven.png'
-import nf from '../../assests/Resume Builder.png'
+import nf from '../../assests/quiz.png'
 import sm from '../../assests/Connectr.png'
 import ecom from '../../assests/E-shoppers.png'
-import whe from '../../assests/whether app.png'
 import real from '../../assests/estratery.png'
 import {BsGithub} from 'react-icons/bs'
 import {FiLink} from 'react-icons/fi'
@@ -51,6 +50,17 @@ const Project = () => {
             </article>
             <article className=' project__item'>
                 <div className='project__item-image'>
+                    <img src={nf} alt='' />
+                </div>
+                <h3>Quizmify</h3>
+                <span>An AI-powered quiz website that represents an advancement in the field of online learning, offering a platform for quiz creation.</span>
+                <div className='project-cta'>
+                <a href='https://github.com/Rishita1304/Quizmify' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://quizmify-gilt.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
+                </div>
+            </article>
+            <article className=' project__item'>
+                <div className='project__item-image'>
                     <img src={sm} alt='' />
                 </div>
                 <h3>Connectr</h3>
@@ -71,7 +81,7 @@ const Project = () => {
                 <a href='https://ecom-fdtv.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
-            <article className=' project__item'>
+            {/* <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={nf} alt='' />
                 </div>
@@ -81,7 +91,7 @@ const Project = () => {
                 <a href='https://github.com/Rishita1304/Resume-Builder.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://resume-builder-bx6y.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
-            </article>
+            </article> */}
             {/* <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={img1} alt='' />
