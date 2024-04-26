@@ -8,8 +8,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_8xhmd2d', 'template_t1m99em', form.current, 'rnl_J7SHyI6icFwgN')
+    emailjs.sendForm('service_6qehn53', 'template_t1m99em', form.current, '7HzEhP4zGMZD9aQop')
       .then((result) => {
+        window.location.reload();
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
