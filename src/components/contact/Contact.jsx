@@ -11,6 +11,7 @@ const Contact = () => {
     emailjs.sendForm('service_6qehn53', 'template_t1m99em', form.current, '7HzEhP4zGMZD9aQop')
       .then((result) => {
         window.location.reload();
+        alert("Mail sent successfully!");
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
@@ -54,7 +55,7 @@ const Contact = () => {
             </div>
 
             <div className='contact__content'>
-                <h3 className='contact__title'>Write me your projects</h3>
+                <h3 className='contact__title'>Write me your queries</h3>
 
                 <form ref={form} onSubmit={sendEmail} className='contact__form'>
                     <div className='contact__form-div'>
@@ -66,8 +67,8 @@ const Contact = () => {
                         <input type='email' name='email' className='contact__form-input' placeholder='Enter your email' />
                     </div>
                     <div className='contact__form-div contact__form-area'>
-                        <label className='contact__form-tag'>Write a Message</label>
-                        <textarea name='project' cols='30' rows='40' className='contact__form-input' placeholder='Enter your project' />
+                        <label className='contact__form-tag'>Message</label>
+                        <textarea name='project' cols='30' rows='40' className='contact__form-input' placeholder='Enter a message' />
                     </div>
                     <input className='button button--flex'
                         type="submit" value="Send Message" />

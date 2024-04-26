@@ -148,6 +148,7 @@ img {
   color: var(--container-color);
   border: 1.5px solid var(--title-color);
   padding: 0.8rem;
+  cursor: pointer;
   border-radius: 1rem;
   margin-top: 10px;
   font-weight: var(--font-medium);
