@@ -43,6 +43,7 @@
 .contact__card-data {
     display: block;
     margin-bottom: var(--mb-0-75);
+    margin-top: var(--mb-0-50);
 }
 
 .contact__button {

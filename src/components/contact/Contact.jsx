@@ -8,7 +8,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_6qehn53', 'template_t1m99em', form.current, '7HzEhP4zGMZD9aQop')
+    emailjs.sendForm('service_eabd5gj', 'template_0kw1g8e', form.current, 'X1ZRBOk1YGsSn17dj')
       .then((result) => {
         window.location.reload();
         alert("Mail sent successfully!");
@@ -31,8 +31,8 @@ const Contact = () => {
                         <i className='bx bx-mail-send contact__card-icon'></i>
 
                         <h3 className='contact__card-title'>Email</h3>
-                        <span className='contact__card-data'>rixsri.13@gmail.com</span>
-                        <a className='link' href="mailto:rixsri.13@gmail.com" target="_blank">Send a message</a>
+                        <span className='contact__card-data'>rishitasrivastava04@gmail.com</span>
+                        <a className='link' href="mailto:rishitasrivastava04@gmail.com" target="_blank">Send a message</a>
                         {/* <a href='' className='contact__button'>Write me{' '} <i className='bx bx-right-arrow-alt contact__button-icon'></i></a> */}
                     </div>
                     {/* <div className='contact__card'>
@@ -68,7 +68,7 @@ const Contact = () => {
                     </div>
                     <div className='contact__form-div contact__form-area'>
                         <label className='contact__form-tag'>Message</label>
-                        <textarea name='project' cols='30' rows='40' className='contact__form-input' placeholder='Enter a message' />
+                        <textarea name='message' cols='30' rows='40' className='contact__form-input' placeholder='Enter a message' />
                     </div>
                     <input className='button button--flex'
                         type="submit" value="Send Message" />
