@@ -26,10 +26,10 @@ const About = () => {
           </p>
           <div className="newdiv">
 
-          <a download href={resume} className="button button--flex">
-            Download CV <i className="uil uil-file-alt"></i>
+          <a href="https://rishita-resume.vercel.app/" className="button button--flex">
+            Resume <i className="uil uil-file-alt"></i>
           </a>
-          <a href="https://rishita1304.github.io/Resume/" className="buttonn newbt"><FiLink/></a>
+          
           </div>
         </div>
       </div>
