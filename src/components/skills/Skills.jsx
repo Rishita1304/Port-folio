@@ -108,7 +108,7 @@ const Skills = () => {
           <a href="https://nodejs.org" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              src="https://cdn.simpleicons.org/nodedotjs/339933"
               alt="nodejs"
               width="50"
               className="skill__logo"
@@ -175,6 +175,16 @@ const Skills = () => {
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
               alt="mongodb"
+              width="50"
+              className="skill__logo"
+              height="40"
+            />{" "}
+          </a>{" "}
+          <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+            {" "}
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="mysql"
               width="50"
               className="skill__logo"
               height="40"

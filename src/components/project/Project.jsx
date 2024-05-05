@@ -4,6 +4,7 @@ import tr from '../../assests/Apna Safar.png'
 import wt from '../../assests/UpDriven.png'
 import nf from '../../assests/quiz.png'
 import sm from '../../assests/Connectr.png'
+import imag from '../../assests/ImaginAI.png'
 import ecom from '../../assests/E-shoppers.png'
 import real from '../../assests/estratery.png'
 import {BsGithub} from 'react-icons/bs'
@@ -15,15 +16,15 @@ const Project = () => {
 <h2 className='section__title'>Projects</h2>
         <span className='section__subtitle'>My Recent Works</span>
         <div className='project__container container'>
-            <article className=' project__item'>
+        <article className=' project__item'>
                 <div className='project__item-image'>
-                    <img src={tr} alt='' />
+                    <img src={imag} alt='' />
                 </div>
-                <h3>Apna Safar</h3>
-                <span>A hotel booking website that allows users to search and book hotels and resorts.</span>
+                <h3>ImaginAI</h3>
+                <span>An AI based image SaaS platform that consolidates image processing tools.</span>
                 <div className='project-cta'>
-                <a href='https://github.com/Rishita1304/Travel-Site' className='buttonn' target='_blank'><BsGithub/></a>
-                <a href='https://apna-safar.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
+                <a href='https://github.com/Rishita1304/ImaginAI' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://imagin-ai-git-main-rishita1304s-projects.vercel.app/' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
             <article className=' project__item'>
@@ -35,6 +36,17 @@ const Project = () => {
                 <div className='project-cta'>
                 <a href='https://github.com/Rishita1304/UpDriven.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://updriven.onrender.com/' className='buttonn' target='_blank'><FiLink/></a>
+                </div>
+            </article>
+            <article className=' project__item'>
+                <div className='project__item-image'>
+                    <img src={tr} alt='' />
+                </div>
+                <h3>Apna Safar</h3>
+                <span>A hotel booking website that allows users to search and book hotels and resorts.</span>
+                <div className='project-cta'>
+                <a href='https://github.com/Rishita1304/Travel-Site' className='buttonn' target='_blank'><BsGithub/></a>
+                <a href='https://apna-safar.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
             <article className=' project__item'>
@@ -59,7 +71,7 @@ const Project = () => {
                 <a href='https://quizmify-gilt.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
             </article>
-            <article className=' project__item'>
+            {/* <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={sm} alt='' />
                 </div>
@@ -69,7 +81,7 @@ const Project = () => {
                 <a href='https://github.com/Rishita1304/Connectr.git' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://connectr.onrender.com' className='buttonn' target='_blank'><FiLink/></a>
                 </div>
-            </article>
+            </article> */}
             <article className=' project__item'>
                 <div className='project__item-image'>
                     <img src={ecom} alt='' />
