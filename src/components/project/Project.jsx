@@ -54,7 +54,7 @@ const Project = () => {
                     <img src={real} alt='' />
                 </div>
                 <h3>Estratery</h3>
-                <span>A real estate website providing seamless property search based on location or price.</span>
+                <span>A real estate platform providing seamless property search based on location or price.</span>
                 <div className='project-cta'>
                 <a href='https://github.com/Rishita1304/Real-estate' className='buttonn' target='_blank'><BsGithub/></a>
                 <a href='https://real-estate-xq2e.vercel.app' className='buttonn' target='_blank'><FiLink/></a>
