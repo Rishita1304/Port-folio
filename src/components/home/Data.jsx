@@ -18,7 +18,7 @@ const Data = () => {
       </h3>
       <p className="home__description">
 
-      A passionate developer with a love for coding, creating digital experiences, and turning ideas into reality.
+      A passionate developer with love for coding, creating digital experiences, and turning ideas into reality.
       </p>
 
       <a href="#contact" className="button button--flex">
