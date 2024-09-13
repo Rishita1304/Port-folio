@@ -129,8 +129,7 @@ const Services = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I have implemented state management solutions using Redux to
-                    manage and ensure that data updates are consistent
-                    throughout the app.
+                    manage and ensure that data updates.
                   </p>
                 </li>
                 <li className="services__modal-service">
@@ -228,14 +227,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Proficient in C++ programming language.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Extensive Knowledge of object-oriented programming
-                    principles.
+                    Proficient in C++ programming and object-oriented principles.
                   </p>
                 </li>
                 <li className="services__modal-service">
@@ -254,8 +246,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Currently learning about advanced concepts of Data
-                    Structures and Algorithm. (e.g, Trees, Graphs, Dynamic
+                    Advanced concepts of Data Structures and Algorithm. (e.g, Trees, Graphs, Dynamic
                     Programming).{" "}
                   </p>
                 </li>

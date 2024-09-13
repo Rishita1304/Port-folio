@@ -14,15 +14,15 @@ const Qualification = () => {
       <span className="section__subtitle ">My personal journey</span>
 
       <div className="qualification__container container">
-        <div className="qualification__tabs">
-          {/* <div className={toggleState === 1 ? 'qualification__button qualification__active button--flex' : 'qualification__button button--flex'} onClick={() => toggleTab(1)}>
+        {/* <div className="qualification__tabs"> */}
+        {/* <div className={toggleState === 1 ? 'qualification__button qualification__active button--flex' : 'qualification__button button--flex'} onClick={() => toggleTab(1)}>
                     <i className='uil uil-graduation-cap qualification__icon'></i> Education
-                </div> */}
+                </div>
 
-          {/* <div className={toggleState === 2 ? 'qualification__button qualification__active button--flex' : 'qualification__button button--flex'} onClick={() => toggleTab(2)}>
+          <div className={toggleState === 2 ? 'qualification__button qualification__active button--flex' : 'qualification__button button--flex'} onClick={() => toggleTab(2)}>
                     <i className='uil uil-briefcase-alt qualification__icon'></i> Experience
                 </div> */}
-        </div>
+        {/* </div> */}
 
         <div className="qualification__sections">
           <div
@@ -40,23 +40,26 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">JavaScript</h3>
-                {/* <span className='qualification__subtitle'>
-                                Spain - Institute
-                            </span> */}
+                <h3 className="qualification__title">Bachelor of Technology</h3>
+                <span className='qualification__subtitle'>
+                  Ajay Kumar Garg Engineering College
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021-2022
+                  <i className="uil uil-calendar-alt"></i> 2021-2025
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">React</h3>
-                {/* <span className='qualification__subtitle'>
-                                
-                            </span> */}
+                <h3 className="qualification__title">Class 12th</h3>
+                <span className='qualification__subtitle '>
+                  90.2%
+                </span>
+                <span className='qualification__subtitle'>
+                  St. Patrick's Sr. Sec. School
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021-Present
+                  <i className="uil uil-calendar-alt"></i> 2019-2020
                 </div>
               </div>
 
@@ -114,7 +117,7 @@ const Qualification = () => {
                   Backend Developer
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> Nov 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> Nov 2022 - Oct 2023
                 </div>
               </div>
 
@@ -143,7 +146,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">GSSOC'23</h3>
-                <span className="qualification__subtitle">Contributer</span>
+                <span className="qualification__subtitle">Open Source Contributer</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> June 2023 - Aug
                   2023
@@ -156,24 +159,53 @@ const Qualification = () => {
               </div>
             </div>
             <div className='qualification__data'>
-                        <div></div>
+              <div></div>
 
-                        <div>
-                            <span className='qualification__rounder'></span>
-                            <span className='qualification__line'></span>
-                        </div>
-                        <div>
-                            <h3 className='qualification__title'>JANATIG</h3>
-                            <span className='qualification__subtitle'>
-                                Full Stack Developer Intern
-                            </span>
-                            <div className='qualification__calender'>
-                                <i className='uil uil-calendar-alt'></i> Sept 2023 - Nov 2023
-                            </div>
-                        </div>
-                        
-                      
-                    </div>
+              <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+              <div>
+                <h3 className='qualification__title'>Janatig Technologies</h3>
+                <span className='qualification__subtitle'>
+                  Full Stack Developer Intern
+                </span>
+                <div className='qualification__calender'>
+                  <i className='uil uil-calendar-alt'></i> Sept 2023 - Nov 2023
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">BDCOE</h3>
+                <span className="qualification__subtitle">Head Coordinator</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> Nov 2023 - <strong>Present</strong>
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className='qualification__data'>
+              <div></div>
+
+              <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+              <div>
+                <h3 className='qualification__title'>IBM SkillsBuild</h3>
+                <span className='qualification__subtitle'>
+                  Software Developer Intern
+                </span>
+                <div className='qualification__calender'>
+                  <i className='uil uil-calendar-alt'></i> June 2024 - Aug 2024
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
